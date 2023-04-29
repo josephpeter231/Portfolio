@@ -87,10 +87,6 @@ import {
     },
  
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
     },
@@ -108,7 +104,7 @@ import {
       company_name: "Infosys",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "December 2022 - March 2023",
+      date: "Dec 2022 - Mar 2023",
       points: [
         "Developing and maintaining web applications using MERN stack and other related technologies.",
         "Collaborating with cross-functional teams to create a question bank for online contest",
@@ -121,25 +117,25 @@ import {
       company_name: "GOGOSOON",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Feb 2023 - March 2023",
+      date: "Feb 2023 - Mar 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed Webapplications using Next Js.",
+        "Designed using HTML,CSS and Javascript.",
+        "Ensuring its responsiveness using Tailwind CSS.",
+        "Integrated using Restful API's.",
       ],
     },
     {
       title: "Campus Representative",
-      company_name: "Shopify",
+      company_name: "Techgig",
       icon: shopify,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Jan 2023 - Apr 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Collect feedback and insights from students to better understand the needs of the target market.",
+        "Promote and represent the company on campus,This involve organizing events and connecting with students and faculty members",
+        "Primary responsibility would be to promote and represent the company in college campus",
+        "Provide feedback on product development from the feedback of Students.",
       ],
     },
 
@@ -148,84 +144,63 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
+        "Joseph Peter is an outstanding developer with a remarkable ability to solve complex problems in unique and innovative ways. His technical skills and attention to detail are impressive.",
+      name: "Devaharish M",
+      designation: "Student",
+      company: "CIT",
       image: "https://media.licdn.com/dms/image/D5603AQEEwOLllqcfsw/profile-displayphoto-shrink_400_400/0/1672215587528?e=1685577600&v=beta&t=mxDv9FmbpRIjQL4qIHhIziUZP85gSDEZU3bTJT2w60s",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "Joseph indeed is a talented person and thinks creatively.His idea and innovation always turns out to be unique and creative. That's not all He has a great problem solving ability too..             ",
+      name: "Keerthana J",
+      designation: "student",
+      company: "Alliance University",
+      image: "https://media.licdn.com/dms/image/D4E03AQFTs5AStTWBdQ/profile-displayphoto-shrink_100_100/0/1637597913205?e=1685577600&v=beta&t=k4aihIYm1L_R2bpS0viONrpn2BPabggXePls7T8BLVA",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "Working with Joseph as a web developer was an absolute pleasure. Their technical skills and attention to detail were impressive, and they consistently delivered high-quality work within tight deadlines",
+      name: "Surieya N",
+      designation: "Student",
+      company: "CIT",
+      image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQmcqzN9KSMx-hxPJfiB3yt59uQhN9R4IqjisfUEitJv9lbQVN14QYLsUfmgiH-AoH2VgTFMdRBaTWa9XXpU9aMV1fveYnRgRsf4peaqt_rCR_qyQ483NgjHHdhfYpOr8axyGWhk3DHw5lAUQkXl6NGMugPS7k6Apw7CUjqRMgwAv01i2_AXyRumuBfw/s458/blank-profile-picture-hd-images-photo.JPG",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Power Saver",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Designed sensor-based system to collect data and transmit to cloud Analyzed using web development for Saving power.",
       tags: [
         {
-          name: "react",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "webserver",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Sensor",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://www.linkedin.com/feed/update/urn:li:activity:6967032350257946624/",
     },
     {
-      name: "Job IT",
+      name: "Covid-19 Dashboard",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Made a Web application to plot covid cases and analyse it in a chart form using React Js and chart Js             .",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
+          name: "Chart Js",
           color: "green-text-gradient",
         },
         {
@@ -233,8 +208,29 @@ import {
           color: "pink-text-gradient",
         },
       ],
+      image: jobit,
+      source_code_link: "https://github.com/josephpeter231",
+    },
+    {
+      name: "Compensation System",
+      description:
+        "Analyzed pre and post-disaster images to calculate level of disaster and estimate compensation caused by the disaster.",
+      tags: [
+        {
+          name: "OpenCV",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Image Processing",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Python",
+          color: "pink-text-gradient",
+        },
+      ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/josephpeter231",
     },
   ];
   
